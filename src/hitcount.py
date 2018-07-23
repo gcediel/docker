@@ -7,7 +7,7 @@ def hit(usr):
     r.incr(usr)
 
 # get the hit count for the usr
-def getHit(usr):
+  def getHit(usr):
     return (r.get(usr))
 
 #
